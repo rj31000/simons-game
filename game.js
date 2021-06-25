@@ -12,7 +12,7 @@ $(".btn").click(function(){
   checkAnswer(userpattern.length-1);
 }
 else
-alert("press any key");});
+started=true;});
 function nextsequence()
 {
 
