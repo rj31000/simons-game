@@ -70,7 +70,7 @@ function animate(color)
     $("#" + color).removeClass("pressed");
   }, 100);
 }
-$(document).keypress(function()
+$(document).click(function()
 {
   if(!started)
   {
